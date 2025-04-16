@@ -2,7 +2,7 @@
   "compilerOptions": {
     "rootDir": ".",
     "paths": {
-      "@/*": ["./src/*"],
+      "@/*": ["./Say.popclipext/*"],
       "@@/*": ["./*"]
     },
     "target": "ESNext",
@@ -21,6 +21,6 @@
     "forceConsistentCasingInFileNames": true,
     "types": ["vite/client", "node", "@popclip/types"]
   },
-  "include": ["src"],
+  "include": ["Say.popclipext"],
   "exclude": ["**/*.test.ts", "node_modules", "test/**", ".history/**"]
 }

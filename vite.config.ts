@@ -27,7 +27,7 @@ export default defineConfig({
   build: {
     outDir: "./build/dist",
     lib: {
-      entry: path.resolve(__dirname, "src/index.ts"),
+      entry: path.resolve(__dirname, "Say.popclipext/Config.ts"),
       name: getPackageNameCamelCase(),
       formats,
       fileName: format => fileName[format],
@@ -38,7 +38,7 @@ export default defineConfig({
   },
   resolve: {
     alias: {
-      "@": path.resolve(__dirname, "src"),
+      "@": path.resolve(__dirname, "Say.popclipext"),
       "@@": path.resolve(__dirname),
     },
   },

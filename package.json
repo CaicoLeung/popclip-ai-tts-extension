@@ -1,12 +1,12 @@
 {
-  "name": "vite-vanilla-ts-lib-starter",
+  "name": "say-popclip-extension",
   "private": true,
   "version": "0.0.5",
-  "module": "./dist/vite-vanilla-ts-lib-starter.js",
+  "module": "./dist/say-popclip-extension.js",
   "type": "module",
   "exports": {
     ".": {
-      "import": "./dist/vite-vanilla-ts-lib-starter.js"
+      "import": "./dist/say-popclip-extension.js"
     },
     "./dist/": {
       "import": "./dist/"
